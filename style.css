@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto&display=swap');
+/* font-family: 'Lilita One', cursive;
+font-family: 'Roboto', sans-serif; */
+body{
+    background-color: #0F1020;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+.titulo-div .titulo{
+    text-align: center;
+    color: #EFC3F5;
+    font: 700 48px 'Lilita One', cursive;
+}
+.titulo-div{
+    border-bottom: #7353BA 1px solid;
+}
+div.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #EFC3F5;
+    height: 500px;
+    width: 900px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px 29px rgba(115, 83, 186, 0.25);
+
+}
+.entradas{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+input{
+    background-color: #2F195F;
+    color: #EFC3F5;
+    height: 150px;
+    width: 150px;
+    border-radius: 7px;
+    border: 1px solid #FAA6FF;
+    text-align: center;
+    font: 400 40px 'Roboto', sans-serif ;
+}
+label{
+    color: #2F195F;
+    font: 400 40px 'Roboto', sans-serif ;
+}
+#resultado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2F195F;
+    color: #EFC3F5;
+    height: 150px;
+    width: 150px;
+    border-radius: 7px;
+    border: 1px solid #FAA6FF;
+    text-align: center;
+    font: 400 40px 'Roboto', sans-serif ;
+}
+
